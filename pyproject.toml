@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools", "setuptools-scm"]
+requires = ["wheel","setuptools-scm[toml]>=8.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -7,7 +7,12 @@ name="campubtest"
 requires-python=">=3.12"
 version="0.0.7"
 description = "Orelogy package to dilute resource block models"
-dependencies=[]
+dependencies=[
+  "build",
+  "setuptools",
+  "setuptools_scm",
+  "wheel"
+]
 
 [project.scripts]
 greet = "campubtestpip.__main__:main"
