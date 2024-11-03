@@ -3,7 +3,7 @@ requires = ["setuptools", "setuptools-scm", "setuptools-scm[toml]>=8.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name="campubtest"
+name="campubtestpip"
 requires-python=">=3.12"
 version="0.0.7"
 description = "Orelogy package to dilute resource block models"
