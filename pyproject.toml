@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name="campubtest"
+requires-python=">=3.12"
+version="0.0.7"
+description = "Orelogy package to dilute resource block models"
+dependencies=[]
+
+[project.scripts]
+greet = "campubtestpip.__main__:main"
